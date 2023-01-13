@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right bottom, #9ea3ac, #9ea3ac, #9a98ab, #9ea3ac, #9a98ab, #d91111, #d33527, #e01414, #ff0000);
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: white;
+    opacity: 0.5;
+    width: 100%;
+    top: 0;
+}
+
+a {
+    font-family: Arial;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    border-radius: 20px;
+    background-color: rgb(245, 154, 154);
+    color: grey;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.card {
+    background-image: linear-gradient(to right bottom, #9ea3ac, #9a98ab, #d91111, #d33527, #e01414, #c62020);
+    border: 2px solid;
+}

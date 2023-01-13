@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #9ea3ac, #9ea3ac, #9a98ab, #9ea3ac, #9a98ab, #d91111, #d33527, #e01414, #ff0000);
+    overflow-x: hidden;
+}
+
+.mr {
+    margin-top: 70px;
+}
+
+#mtd {
+    margin-top: 700px;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--textColor);
+}
+
+#btt {
+    width: 150px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #1b2741;
+    text-align: center;
+    
+}
+
+#btt a {
+    color: rgb(171, 171, 171);
+}
+
+.produits {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.produit1 {
+    position: relative;
+    background-color: var(--sectionBack);
+    width: 300px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+}
+
+.tsw {
+    height: 200px;
+}
+
+.image {
+    width: 100%;
+    height: 60%;
+    display: grid;
+    place-items: center;
+}
+
+.image img {
+    width: 200px;
+}
+
+.nameprice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nameprice h3 {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--textColor);
+}
+
+.buy span {
+    font-size: 15px;
+    color: var(--starColor);
+}
+
+.produit1 p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+
+.buy {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.buy button {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+nav {
+    background-color: white;
+    opacity: 0.7;
+    width: 100%;
+    top: 0;
+}
+
+a {
+    font-family: Arial;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    border-radius: 20px;
+    background-color: rgb(245, 154, 154);
+    color: grey;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+:root {
+    --bodyBack: #ffeaed;
+    --textColor: #1b2741;
+    --starColor: #f67034;
+    --sectionBack: #f7f6f9;
+}

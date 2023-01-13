@@ -1,0 +1,86 @@
+body {
+    background-image: linear-gradient(to right bottom, #9ea3ac, #9ea3ac, #9a98ab, #9ea3ac, #9a98ab, #d91111, #d33527, #e01414, #ff0000);
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: white;
+    opacity: 0.7;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+a {
+    font-family: Arial;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    border-radius: 20px;
+    background-color: rgb(245, 154, 154);
+    color: grey;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+button {
+    background-color: rgb(179, 52, 52);
+    border: none;
+    border-radius: 30px;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+button a {
+    color: gray;
+}
+
+button a:hover {
+    color: rgb(236, 236, 125);
+}
+
+.ff {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.mm {
+    margin-top: 120px;
+}
+
+h1 {
+    color: rgba(150, 34, 34, 0.753);
+}
+
+.fp {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ll {
+    font-size: 0;
+}
+
+.ll :hover {
+    font-size: 15px;
+}
+
+footer {
+    background-color: transparent;
+}
+
+.pp {
+    margin-top: 200px;
+}
+
+.table {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.table {
+    width: 50%;
+    margin: auto;
+}
